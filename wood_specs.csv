@@ -1,0 +1,26 @@
+region_wood,wood_species,density_kg_m3,hardness_n,carbon_storage_kg_co2e_per_kg,recyclability_rate_pct,certification,origin,updated_at
+Balkans,Oak,776,8686,2.52,95,None,Balkans,2025-10-03
+Austria,Beech,625,9153,2.89,70,FSC,Austria,2025-10-03
+France,Chestnut,641,7674,2.66,77,PEFC,France,2025-10-03
+Germany,Ash,726,8989,1.88,79,FSC,Germany,2025-10-03
+Greece,Olive,785,6202,2.86,93,None,Greece,2025-10-03
+Sweden,Birch,563,7760,2.09,79,FSC,Sweden,2025-10-03
+Canada,Maple,593,7304,2.59,96,FSC,Canada,2025-10-03
+USA,Walnut,653,5460,2.52,90,FSC,USA,2025-10-03
+USA,Cherry,550,5351,1.72,67,PEFC,USA,2025-10-03
+USA,Redwood,465,5012,2.59,85,FSC,USA,2025-10-03
+USA,Hickory,722,7699,1.7,87,FSC,USA,2025-10-03
+Brazil,Mahogany,681,6910,2.38,91,FSC,Brazil,2025-10-03
+Brazil,Rosewood,905,8152,2.68,85,FSC,Brazil,2025-10-03
+Brazil,Ipe,973,7511,2.83,82,FSC,Brazil,2025-10-03
+Brazil,Pau Ferro,831,11581,2.16,72,FSC,Brazil,2025-10-03
+Congo,Ebony,936,8777,1.81,77,FSC,Congo,2025-10-03
+Ivory Coast,African Mahogany,691,7172,2.77,93,None,Ivory Coast,2025-10-03
+Gabon,Bubinga,756,9386,2.53,69,FSC,Gabon,2025-10-03
+Congo,Wenge,843,9834,2.02,90,FSC,Congo,2025-10-03
+India,Teak,725,9388,1.96,100,FSC,India,2025-10-03
+Vietnam,Bamboo,421,6827,2.61,88,FSC,Vietnam,2025-10-03
+India,Mango,640,9848,1.59,73,None,India,2025-10-03
+India,Sandalwood,834,7931,1.79,81,PEFC,India,2025-10-03
+Laos,Padauk,803,11989,2.12,80,None,Laos,2025-10-03
+Australia,Jarrah,839,7843,2.09,69,None,Australia,2025-10-03

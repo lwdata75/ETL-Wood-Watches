@@ -16,18 +16,27 @@ Data Generator → JSON Files → Snowpipe → Snowflake Tables
 
 ```
 Arbore/
-├── FINAL_data_generator.py          # Generates sample data
 ├── py_snowpipe_arbore.py           # Main Snowpipe processing script
 ├── arbore_snowpipe_setup.sql       # SQL setup for Snowpipe infrastructure
 ├── check_snowpipe_status.py        # Verification script for data counts
 ├── .env                            # Environment variables (not in repo)
+├── Arbore DATA GENERATION/
+│   ├── FINAL_data_generator.py     # Generates sample data
+│   └── Wood and Product/
+│       ├── create_csv_products.py  # Product table generator
+│       ├── create_csv_wood.py      # Wood specs generator
+│       ├── product_id.csv          # Product IDs for product generation
+│       ├── rule_book_product.md    # Rules for product generation
+│       └── rule_book-wood.md       # Rules for wood specs generation
 └── data_out/                       # Generated data files
     ├── orders/
-    │   └── orders.json
+    │   └── orders.jsonl
     ├── claims/
-    │   └── warranty_claims.json
-    └── suppliers/
-        └── suppliers.json
+    │   └── warranty_claims.jsonl
+    ├── supplier/
+    │   └── wood_specs.csv          # Wood specifications data
+    └── dims/
+        └── d_watch_product.csv     # Product dimension table
 ```
 
 ## 🔧 Prerequisites
@@ -176,5 +185,6 @@ python check_snowpipe_status.py
 - **Authentication**: RSA key pair for secure, automated access
 
 ---
+
 
 **Note**: This pipeline is designed for the Arboré watch business use case but can be adapted for other business scenarios by modifying the data generation logic and table schemas.
